@@ -82,7 +82,7 @@
                                                (powerline-raw "%p " 'pos-ml-face 'l)
                                                (funcall separator-right 'pos-ml-face 'line-ml-face)
 
-                                               (powerline-raw " %4l " 'line-ml-face 'r))))
+                                               (powerline-raw " %4l %3c" 'line-ml-face 'r))))
 
                                (concat (powerline-render lhs)
                                        (powerline-fill 'ml-fill-face (powerline-width rhs))
