@@ -18,7 +18,7 @@
                 solarized-emphasize-indicators nil
                 solarized-scale-org-headlines nil
                 x-underline-at-descent-line t)
-          (load-theme 'solarized-light 'no-confirm))
+          (load-theme 'solarized-dark 'no-confirm))
   :config (setq color-theme-is-global t))
 
 (use-package rainbow-mode :ensure t
